@@ -7,7 +7,7 @@
 <style>
   @font-face {
     font-family: 'League Gothic Italic';
-    src: url(../assets/LeagueGothic-italic.otf);
+    src: url(../assets/LeagueGothic-Italic.otf);
   }
 
   html {
