@@ -15,7 +15,9 @@
   "dependencies": {
     "cross-env": "^5.2.0",
     "eslint-config-coderdojo": "^1.1.0",
-    "nuxt": "^2.0.0"
+    "node-sass": "^4.9.3",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

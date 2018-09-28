@@ -1,15 +1,14 @@
 <template>
   <section class="c-hero">
-    <div class="logo">
-      <a class="rpi" href="https://raspberrypi.org">
-        <img src="~/static/hero/rpi-logo.svg" />
-      </a>
-      <img src="~/static/logo-white.svg" />
-      <h1>The world leading technology fair for young people</h1>
+    <div class="c-hero__content">
+      <div class="c-hero__content-content">
+        <div class="c-hero__logo">
+          <img src="~/static/logo-orange.svg" />
+          <h1>The world leading technology fair for young people</h1>
+        </div>
+      </div>
     </div>
-    <div class="events">
-      <slot></slot>
-    </div>
+    <div class="c-hero__image"></div>
   </section>
 </template>
 
@@ -19,52 +18,54 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-hero {
     display: flex;
-    max-width: 1100px;
-    margin: 0 auto;
-    background-image: url(../../static/hero/crowd.jpg);
-    background-size: cover;
-    justify-content: space-between;
+
+    &__content {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+      background: $white;
+      clip-path: polygon(0 0, 100% 0, calc(100% - 96px) 50%, calc(100% - 32px) 50%, calc(100% - 128px) 100%, 0 100%);
+      margin-right: -128px;
+
+      &-content {
+        max-width: 710px
+      }
+    }
+
+    &__logo {
+      padding: 50px 175px 80px 60px;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      h1 {
+        font-family: 'League Gothic Italic';
+        text-transform: uppercase;
+        font-size: 40px;
+      }
+    }
+
+    &__image {
+      background-image: url(../../static/hero/crowd.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex: 1;
+    }
   }
 
-  .logo {
-    background-image: url(../../static/hero/rpi-bg.svg), url(../../static/hero/bg.svg);
-    background-position: top left, top right;
-    background-repeat: no-repeat;
-    background-size: auto, cover;
-    padding: 50px 175px 200px 75px;
-    max-width: 55%;
-    position: relative;
-  }
-
-  .rpi {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 16px 24px;
-  }
-
-  .rpi img {
-    width: 32px;
-    transition: transform .15s cubic-bezier(.68,-.55,.265,1.55);
-  }
-
-  .rpi:hover img {
-    transform: rotate(-5deg) scale(1.1);
-  }
-
-  img {
-    width: 100%;
-  }
-
-  h1 {
-    color: #fff;
-    font-family: 'League Gothic';
-    font-style: italic;
-    text-transform: uppercase;
-    transform: rotate(-4deg);
-    font-size: 40px;
+  @include media-breakpoint-max(md) {
+    .c-hero {
+      &__logo {
+        padding: 50px 145px 80px 30px;
+      }
+    }
   }
 </style>

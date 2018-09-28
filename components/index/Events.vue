@@ -1,51 +1,123 @@
 <template>
   <section class="c-events">
-    <div class="event">
-      <span>United Kingdom</span>
-      <span>Manchester</span>
-      <span>2 March 2019</span>
-    </div>
-    <div class="event">
-      <span>North America</span>
-      <span>Santa Ana, CA</span>
-      <span>23 March 2019</span>
-    </div>
-    <div class="event">
-      <span>International</span>
-      <span>Dublin</span>
-      <span>5 May 2019</span>
+    <div v-for="event in events" :key="event.name" class="c-events__event">
+      <div class="c-events__event-details">
+        <span>{{ event.name }}</span>
+        <span>{{ event.location }}</span>
+        <span>{{ event.date }}</span>
+        <a v-if="event.ticketsUrl" :href="event.ticketsUrl">Buy Tickets</a>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
   export default {
-
-  }
+    data() {
+      return {
+        events: [
+          {
+            name: 'United Kingdom',
+            location: 'Manchester',
+            date: '2 March 2019',
+          },
+          {
+            name: 'North America',
+            location: 'Santa Ana, CA',
+            date: '23 March 2019',
+          },
+          {
+            name: 'International',
+            location: 'Dublin',
+            date: '5 May 2019',
+          },
+        ],
+      };
+    },
+  };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-events {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     height: 100%;
-    padding: 64px 0;
+
+    &__event {
+      color: $white;
+      font-family: Lato;
+      flex: 1;
+
+      &-details {
+        padding: 0 60px 45px 60px;
+        max-width: 433px;
+        width: 100%;
+      }
+
+      span {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+
+        &:first-child {
+          font-size: 35px;
+          font-family: 'League Gothic Italic';
+          font-weight: normal;
+          background: $white;
+          display: inline-block;
+          text-transform: uppercase;
+          padding: 4px 8px;
+          margin: 24px 0 10px 0;
+        }
+      }
+
+      &:nth-child(1) {
+        background: $orange;
+        display: flex;
+        justify-content: flex-end;
+
+        span:first-child {
+          color: $orange;
+        }
+      }
+
+      &:nth-child(2) {
+        background: $red;
+        max-width: 433px;
+
+        span:first-child {
+          color: $red;
+        }
+      }
+
+      &:nth-child(3) {
+        background: $teal;
+
+        span:first-child {
+          color: $teal;
+        }
+      }
+
+      a {
+        background: $black;
+        color: $white;
+        text-decoration: none;
+        font-family: 'League Gothic Italic';
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 8px 16px;
+      }
+    }
   }
 
-  .event {
-    background: white;
-    font-family: Lato;
-    padding: 16px 64px;
-    clip-path: polygon(16px 0, 100% 0, 100% 100%, 0 100%);
-  }
-
-  .event span {
-    display: block;
-    font-size: 24px;
-  }
-
-  .event span:first-child {
-    font-weight: bold;
+  @include media-breakpoint-max(md) {
+    .c-events {
+      &__event {
+        &-details {
+          padding: 0 30px 45px 30px;
+        }
+      }
+    }
   }
 </style>
