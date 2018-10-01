@@ -65,4 +65,14 @@
       padding: 0 30px;
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-mailing-list {
+      padding: 0 15px;
+
+      input[type="submit"] {
+        margin-bottom: 16px;
+      }
+    }
+  }
 </style>

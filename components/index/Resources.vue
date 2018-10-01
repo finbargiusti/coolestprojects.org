@@ -52,4 +52,10 @@
       padding: 0 30px 30px 30px;
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-resources {
+      padding: 0 15px 30px 15px;
+    }
+  }
 </style>

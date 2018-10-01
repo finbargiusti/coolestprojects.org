@@ -38,9 +38,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-image: url(../../static/rpf.png);
-      background-repeat: no-repeat;
-      background-position: bottom right 60px;
     }
 
     &__links {
@@ -86,6 +83,22 @@
       &__content {
         padding: 0 30px;
         background-position: bottom right 30px;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-footer {
+      &__content {
+        flex-direction: column-reverse;
+      }
+
+      &__logo {
+        padding: 15px;
+
+        img {
+          height: 200px;
+        }
       }
     }
   }

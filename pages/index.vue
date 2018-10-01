@@ -50,7 +50,7 @@
 
   .subfooter {
     background-color: $grey;
-    background-image: url('../static/footer-image.jpg');
+    background-image: url('../static/footer-image-grad.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     padding-bottom: 560px;
@@ -71,6 +71,21 @@
     .flex {
       > * {
         margin: 0 15px;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .subfooter {
+      padding-bottom: 200px;
+      background-size: auto 260px;
+    }
+
+    .flex {
+      flex-direction: column;
+
+      > * {
+        margin: 15px;
       }
     }
   }

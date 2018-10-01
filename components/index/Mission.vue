@@ -77,4 +77,24 @@
       }
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-mission {
+      padding: 35px 30px 30px 30px;
+      clip-path: polygon(0 0, 100% 16px, 100% 100%, 0 100%);
+
+      &__content {
+        flex-direction: column;
+      }
+
+      &__section {
+        width: 100%;
+      }
+
+      &__text {
+        padding-left: 0;
+        padding-top: 30px;
+      }
+    }
+  }
 </style>

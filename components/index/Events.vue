@@ -120,4 +120,21 @@
       }
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-events {
+      flex-direction: column;
+
+      &__event {
+        &-details {
+          max-width: 100%;
+          padding: 0 30px 30px 30px;
+        }
+
+        &:nth-child(2) {
+          max-width: 100%;
+        }
+      }
+    }
+  }
 </style>

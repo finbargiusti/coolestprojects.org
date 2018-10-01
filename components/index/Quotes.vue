@@ -72,7 +72,9 @@
         flex: 3;
 
         img {
-          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          object-fit: cover;
         }
       }
 
@@ -105,6 +107,31 @@
         &-text {
           padding: 20px 30px;
           font-size: 16px;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-quotes {
+      flex-direction: column;
+
+        &__left {
+          margin: 0 30px;
+        }
+
+        &__right {
+          margin: -30px 30px 0 30px;
+        }
+
+      &__quote {
+        flex-direction: column;
+
+        &-image {
+          img {
+            height: 175px;
+            width: 100%;
+          }
         }
       }
     }

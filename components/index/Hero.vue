@@ -68,4 +68,29 @@
       }
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-hero {
+      display: block;
+      background :red;
+
+      &__content {
+        margin-right: 0;
+        margin-bottom: -32px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 48% calc(100% - 30px), 53% 100%, 0 calc(100% - 15px));
+
+        &-content {
+          max-width: 710px
+        }
+      }
+
+      &__logo {
+        padding: 30px 30px 45px 30px;
+      }
+
+      &__image {
+        height: 200px;
+      }
+    }
+  }
 </style>

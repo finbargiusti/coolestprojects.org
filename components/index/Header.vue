@@ -24,4 +24,12 @@
       padding: 8px 60px;
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-header {
+      &__content {
+        padding: 8px 30px;
+      }
+    }
+  }
 </style>

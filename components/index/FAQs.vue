@@ -84,4 +84,21 @@
       padding: 40px 30px;
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-faqs {
+      padding: 30px 15px;
+
+      &__entry {
+        h2 {
+          padding: 16px 16px 16px 48px;
+          background-position: left 16px center;
+        }
+
+        p {
+          padding: 16px;
+        }
+      }
+    }
+  }
 </style>

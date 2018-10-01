@@ -84,4 +84,18 @@
       }
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-enter {
+      &__content {
+        clip-path: none;
+        width: 100%;
+        padding: 30px;
+      }
+
+      &__image {
+        display: none;
+      }
+    }
+  }
 </style>
