@@ -26,15 +26,15 @@
 
     &__content {
       height: 100%;
-      width: calc(50% + 80px);
+      width: calc(50% + 160px);
       background: $purple;
-      padding: 40px 160px 40px 60px;
+      padding: 40px 160px 40px 30px;
       clip-path: polygon(0 0, 100% 0, calc(100% - 160px) 100%, 0 100%);
       display: flex;
       justify-content: flex-end;
 
       &-content {
-        max-width: 570px;
+        max-width: 590px;
       }
 
       h1 {

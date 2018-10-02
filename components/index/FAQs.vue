@@ -20,7 +20,7 @@
   export default {
     data() {
       return {
-        q1: true,
+        q1: false,
         q2: false,
         q3: false,
       };
