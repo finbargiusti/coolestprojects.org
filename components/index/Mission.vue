@@ -25,14 +25,14 @@
   @import '~/assets/_variables.scss';
 
   .c-mission {
-    margin-top: -16px;
+    margin-top: -(spacing(2));
     background: $grey-x-dark;
     background-image: url(../../static/mission-bg.svg);
     background-position: center;
     background-repeat: no-repeat;
     color: $white;
-    padding: 65px 60px 80px 60px;
-    clip-path: polygon(0 16px, 33% 0, 66% 0, 100% 16px, 100% 100%, 0 100%);
+    padding: 65px spacing(5) 80px spacing(5);
+    clip-path: polygon(0 spacing(2), 33% 0, 66% 0, 100% spacing(2), 100% 100%, 0 100%);
 
     &__content {
       display: flex;
@@ -48,7 +48,7 @@
 
     &__text {
       font-size: 24px;
-      padding-left: 30px;
+      padding-left: spacing(3);
       line-height: 33px;
     }
 
@@ -70,7 +70,7 @@
 
   @include media-breakpoint-max(md) {
     .c-mission {
-      padding: 65px 30px 80px 30px;
+      padding: 65px spacing(3) 80px spacing(3);
 
       &__text {
         font-size: 20px;
@@ -80,8 +80,8 @@
 
   @include media-breakpoint-max(sm) {
     .c-mission {
-      padding: 35px 30px 30px 30px;
-      clip-path: polygon(0 0, 100% 16px, 100% 100%, 0 100%);
+      padding: 35px spacing(3) spacing(3) spacing(3);
+      clip-path: polygon(0 0, 100% spacing(2), 100% 100%, 0 100%);
 
       &__content {
         flex-direction: column;
@@ -93,7 +93,7 @@
 
       &__text {
         padding-left: 0;
-        padding-top: 30px;
+        padding-top: spacing(3);
       }
     }
   }

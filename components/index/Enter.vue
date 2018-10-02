@@ -38,12 +38,9 @@
       }
 
       h1 {
-        font-family: 'League Gothic Italic';
-        font-weight: 400;
         color: $white;
         transform: rotate(-4deg);
         font-size: 58px;
-        text-transform: uppercase;
         margin: 40px 0;
       }
 

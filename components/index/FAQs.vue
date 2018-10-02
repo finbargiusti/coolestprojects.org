@@ -1,6 +1,6 @@
 <template>
   <section class="c-faqs">
-    <h1>FAQs</h1>
+    <h1 class="text-center">FAQs</h1>
     <div class="c-faqs__entry" :class="{'c-faqs__entry--expanded': q1 }">
       <h2 @click="toggleEntry('q1')">What happens if the project is not complete by the day of the event?</h2>
       <p>Don’t worry if your project is not 100% complete – bring what you have developed so far. Coolest Projects is all about the experience and learning gained from participating and showing what you have created.</p>
@@ -37,18 +37,11 @@
   @import '~/assets/_variables.scss';
 
   .c-faqs {
-    padding: 40px 60px;
-
-    h1 {
-      text-align: center;
-      font-family: 'League Gothic Italic';
-      text-transform: uppercase;
-      font-size: 50px;
-    }
+    padding: spacing(3) spacing(5);
 
     &__entry {
       max-width: 840px;
-      margin: 30px auto;
+      margin: spacing(3) auto;
 
       h2 {
         background-color: $purple;
@@ -57,14 +50,14 @@
         background-position: left 24px center;
         font-size: 18px;
         color: $white;
-        padding: 16px 32px 16px 64px;
+        padding: spacing(2) spacing(3) spacing(2) spacing(5);
         cursor: pointer;
       }
 
       p {
         display: none;
         background: $white;
-        padding: 16px 32px;
+        padding: spacing(2) spacing(3);
       }
 
       &--expanded {
@@ -81,18 +74,18 @@
 
   @include media-breakpoint-max(md) {
     .c-faqs {
-      padding: 40px 30px;
+      padding: spacing(3);
     }
   }
 
   @include media-breakpoint-max(sm) {
     .c-faqs {
-      padding: 30px 15px;
+      padding: spacing(3) spacing(2);
 
       &__entry {
         h2 {
-          padding: 16px 16px 16px 48px;
-          background-position: left 16px center;
+          padding: spacing(2) spacing(2) spacing(2) spacing(4);
+          background-position: left spacing(2) center;
         }
 
         p {

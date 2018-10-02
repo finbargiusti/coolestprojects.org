@@ -50,7 +50,7 @@
       flex: 1;
 
       &-details {
-        padding: 0 60px 45px 60px;
+        padding: 0 spacing(5) spacing(4) spacing(5);
         max-width: 433px;
         width: 100%;
       }
@@ -115,7 +115,7 @@
     .c-events {
       &__event {
         &-details {
-          padding: 0 30px 45px 30px;
+          padding: 0 spacing(3) spacing(4) spacing(3);
         }
       }
     }
@@ -128,7 +128,7 @@
       &__event {
         &-details {
           max-width: 100%;
-          padding: 0 30px 30px 30px;
+          padding: 0 spacing(3) spacing(3) spacing(3);
         }
 
         &:nth-child(2) {

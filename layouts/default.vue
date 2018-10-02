@@ -32,4 +32,17 @@
   h1, h2, h3 {
     color: $grey-x-dark;
   }
+
+  h1 {
+    margin: 26px 0 13px 0;
+    font-family: 'League Gothic Italic';
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  .text-center {
+    text-align: center;
+  }
 </style>

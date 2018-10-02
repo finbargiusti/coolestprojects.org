@@ -1,10 +1,11 @@
 <template>
   <section class="c-mailing-list">
-    <h1>Stay in touch</h1>
-    <form>
+    <h1 class="text-center">Stay in touch</h1>
+    <form action="https://raspberrypi.us9.list-manage.com/subscribe/post?u=54fbc2c9ac9d9dd634725107a&amp;id=1ec0029928" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <label>Email Address</label>
-      <input type="email" />
-      <input type="submit" value="Sign up" />
+      <input type="email" name="EMAIL" />
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_54fbc2c9ac9d9dd634725107a_1ec0029928" tabindex="-1" value=""></div>
+      <input type="submit" name="subscribe" value="Sign up" />
     </form>
   </section>
 </template>
@@ -21,57 +22,50 @@
   .c-mailing-list {
     background: $white;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
-    padding: 0 60px;
-
-    h1 {
-      font-family: 'League Gothic Italic';
-      font-size: 50px;
-      text-align: center;
-      text-transform: uppercase;
-      margin: 26px 0 13px 0;
-    }
+    padding: 0 spacing(5);
 
     label {
       display: block;
-      margin: 26px 0 10px 0;
+      margin: spacing(3) 0 spacing(1) 0;
       font-size: 18px;
     }
 
     input {
       display: block;
       width: 100%;
-      margin: 10px 0;
-      background: #EBF0F5;
-      border: none;
-      margin: 10px 0 24px 0;
-      font-size: 26px;
       line-height: 50px;
+    }
+
+    input[type=email] {
+      margin: spacing(1) 0 spacing(3) 0;
+      font-size: 26px;
+      border: 1px solid $grey-light;
     }
 
     input[type="submit"] {
       text-transform: uppercase;
-      margin: 10px 0;
+      margin: spacing(1) 0;
       font-size: 35px;
       color: $white;
       background-color: $orange;
       font-family: 'League Gothic Italic';
       padding: 4px;
-      margin-bottom: 32px;
+      margin-bottom: spacing(3);
     }
   }
 
   @include media-breakpoint-max(md) {
     .c-mailing-list {
-      padding: 0 30px;
+      padding: 0 spacing(3);
     }
   }
 
   @include media-breakpoint-max(sm) {
     .c-mailing-list {
-      padding: 0 15px;
+      padding: 0 spacing(2);
 
       input[type="submit"] {
-        margin-bottom: 16px;
+        margin-bottom: spacing(2);
       }
     }
   }

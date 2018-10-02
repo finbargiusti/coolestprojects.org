@@ -21,14 +21,14 @@
     &__content {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 8px 60px;
+      padding: 8px spacing(5);
     }
   }
 
   @include media-breakpoint-max(sm) {
     .c-header {
       &__content {
-        padding: 8px 30px;
+        padding: 8px spacing(3);
       }
     }
   }

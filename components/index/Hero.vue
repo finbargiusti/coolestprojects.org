@@ -47,11 +47,7 @@
       }
 
       h1 {
-        font-family: 'League Gothic Italic';
-        text-transform: uppercase;
         font-size: 40px;
-        line-height: 1.1;
-        font-weight: normal;
       }
     }
 
@@ -79,8 +75,8 @@
 
       &__content {
         margin-right: 0;
-        margin-bottom: -32px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 48% calc(100% - 30px), 53% 100%, 0 calc(100% - 15px));
+        margin-bottom: -(spacing(3));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 48% calc(100% - spacing(3)), 53% 100%, 0 calc(100% - spacing(2)));
 
         &-content {
           max-width: 710px
@@ -88,7 +84,7 @@
       }
 
       &__logo {
-        padding: 30px 30px 45px 30px;
+        padding: spacing(3) spacing(3) spacing(4) spacing(3);
       }
 
       &__image {

@@ -7,6 +7,7 @@ $purple: #5E66C5;
 $purple-dark: #353158;
 $grey-x-dark: #201E34;
 $grey: #E7EDF3;
+$grey-light: #DDDDDD;
 $pi-grey: #374F60;
 
 $breakpoints: (sm: 576px, md: 768px, lg: 992px, xl: 1200px);
@@ -31,4 +32,10 @@ $breakpoints: (sm: 576px, md: 768px, lg: 992px, xl: 1200px);
   @media (min-width: get-breakpoint($min)) and (max-width: get-breakpoint($max)) {
     @content;
   }
+}
+
+$spacings: (1: 10px, 2: 15px, 3: 30px, 4: 45px, 5: 60px);
+
+@function spacing($n) {
+  @return map-get($spacings, $n);
 }

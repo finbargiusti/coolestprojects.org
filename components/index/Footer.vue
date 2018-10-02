@@ -34,7 +34,7 @@
     &__content {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 0 60px;
+      padding: 0 spacing(5);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -46,7 +46,7 @@
       a {
         color: $white;
         font-size: 20px;
-        margin: 16px 0;
+        margin: spacing(2) 0;
         text-decoration: none;
         display: block;
         font-weight: bold;
@@ -66,7 +66,7 @@
     &__logo {
       flex: 1;
       max-width: 320px;
-      padding: 36px;
+      padding: spacing(3);
 
       img {
         width: 100%;
@@ -81,8 +81,8 @@
   @include media-breakpoint-max(md) {
     .c-footer {
       &__content {
-        padding: 0 30px;
-        background-position: bottom right 30px;
+        padding: 0 spacing(3);
+        background-position: bottom right spacing(3);
       }
     }
   }
@@ -94,7 +94,7 @@
       }
 
       &__logo {
-        padding: 15px;
+        padding: spacing(2);
 
         img {
           height: 200px;

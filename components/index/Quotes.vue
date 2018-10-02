@@ -48,17 +48,17 @@
 
     &__left {
       flex: 7;
-      margin: 0 30px 0 60px;
+      margin: 0 spacing(3) 0 spacing(5);
     }
 
     &__right {
       flex: 5;
-      margin: 0 60px 0 30px;
+      margin: 0 spacing(5) 0 spacing(3);
 
       .c-quotes__quote {
         flex-direction: column;
         padding-bottom: 40px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 32px));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - spacing(3)));
       }
     }
 
@@ -66,7 +66,7 @@
       background: $teal;
       color: $white;
       display: flex;
-      margin: 60px 0;
+      margin: spacing(5) 0;
 
       &-image {
         flex: 3;
@@ -80,7 +80,7 @@
 
       &-text {
         flex: 5;
-        padding: 40px 30px;
+        padding: 40px spacing(3);
         font-size: 18px;
         line-height: 1.35;
       }
@@ -95,18 +95,18 @@
   @include media-breakpoint-max(md) {
     .c-quotes {
       &__left {
-        margin: 0 15px 0 30px;
+        margin: 0 spacing(2) 0 spacing(3);
       }
 
       &__right {
-        margin: 0 30px 0 15px;
+        margin: 0 spacing(3) 0 spacing(2);
       }
 
       &__quote {
-        margin: 30px 0;
+        margin: spacing(3) 0;
 
         &-text {
-          padding: 20px 30px;
+          padding: 20px spacing(3);
           font-size: 16px;
         }
       }
@@ -118,11 +118,11 @@
       flex-direction: column;
 
         &__left {
-          margin: 0 30px;
+          margin: 0 spacing(3);
         }
 
         &__right {
-          margin: -30px 30px 0 30px;
+          margin: -(spacing(3)) spacing(3) 0 spacing(3);
         }
 
       &__quote {
