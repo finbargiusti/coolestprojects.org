@@ -82,6 +82,7 @@
         flex: 5;
         padding: 40px 30px;
         font-size: 18px;
+        line-height: 1.35;
       }
 
       &-attribution {

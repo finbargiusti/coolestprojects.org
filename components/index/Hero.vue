@@ -38,17 +38,21 @@
     }
 
     &__logo {
-      padding: 50px 175px 80px 60px;
+      padding: 50px 175px 70px 60px;
       position: relative;
 
       img {
         width: 100%;
+        margin-bottom: 20px;
       }
 
       h1 {
         font-family: 'League Gothic Italic';
         text-transform: uppercase;
         font-size: 40px;
+        line-height: 1.1;
+        font-weight: normal;
+        color: $grey-x-dark;
       }
     }
 

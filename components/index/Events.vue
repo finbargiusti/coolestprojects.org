@@ -67,7 +67,7 @@
           background: $white;
           display: inline-block;
           text-transform: uppercase;
-          padding: 4px 8px;
+          padding: 4px 12px;
           margin: 24px 0 10px 0;
         }
       }

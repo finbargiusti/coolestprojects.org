@@ -51,6 +51,7 @@
         font-size: 18px;
         color: $white;
         margin: 40px 0;
+        line-height: 1.35;
       }
 
       a {
