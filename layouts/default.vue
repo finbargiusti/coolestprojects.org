@@ -4,7 +4,9 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+  @import '~/assets/_variables.scss';
+
   @font-face {
     font-family: 'League Gothic Italic';
     src: url(../assets/LeagueGothic-Italic.otf);
@@ -25,5 +27,9 @@
   *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
+  }
+
+  h1, h2, h3 {
+    color: $grey-x-dark;
   }
 </style>

@@ -52,7 +52,6 @@
         font-size: 40px;
         line-height: 1.1;
         font-weight: normal;
-        color: $grey-x-dark;
       }
     }
 
