@@ -76,7 +76,7 @@
       &__content {
         margin-right: 0;
         margin-bottom: -(spacing(3));
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 48% calc(100% - spacing(3)), 53% 100%, 0 calc(100% - spacing(2)));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 48% calc(100% - #{spacing(3)}), 53% 100%, 0 calc(100% - #{spacing(2)}));
 
         &-content {
           max-width: 710px

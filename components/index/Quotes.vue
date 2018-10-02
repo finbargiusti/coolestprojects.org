@@ -58,7 +58,7 @@
       .c-quotes__quote {
         flex-direction: column;
         padding-bottom: 40px;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - spacing(3)));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{spacing(3)}));
       }
     }
 
