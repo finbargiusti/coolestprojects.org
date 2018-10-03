@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "cross-env": "^5.2.0",
     "eslint-config-coderdojo": "^1.1.0",
     "node-sass": "^4.9.3",
