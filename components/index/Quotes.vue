@@ -6,7 +6,7 @@
           <img src="https://placeimg.com/269/278/people" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>“A quote goes here Coolest Projects wants to recognize the effort and creativity of young people who have had an idea and worked to make it a reality using”</p>
+          <p>“I love to see the different projects and the people from all over the world, who come to show the things that inside are very similar but in practice are very different and have many different uses.” - Raul, Madrid</p>
         </div>
       </div>
       <div class="c-quotes__quote">
@@ -14,7 +14,7 @@
           <img src="https://placeimg.com/269/278/people" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>“A quote goes here Coolest Projects wants to recognize the effort and creativity of young people who have had an idea and worked to make it a reality using”</p>
+          <p>“I think it's a really good way to see other people’s projects and Ii think it has really helped me get a view of how much there is involved in building technology." - George, UK</p>
         </div>
       </div>
     </div>
@@ -24,8 +24,7 @@
           <img src="https://placeimg.com/507/382/people" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>“A must see event, these young people are going to define our future”</p>
-          <p class="c-quotes__quote-attribution">A. Person<br />Microsoft</p>
+          <p>"To any kids that are looking to enter a project in Coolest Projects, I would definitely encourage them to go in with an open mind. I had no expectations going in and loved being immersed in the environment that exuded innovation and ingenuity." - Kavi, USA</p>
         </div>
       </div>
     </div>

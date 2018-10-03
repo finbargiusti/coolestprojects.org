@@ -3,7 +3,8 @@
     <div v-for="event in events" :key="event.name" class="c-events__event">
       <div class="c-events__event-details">
         <span>{{ event.name }}</span>
-        <span>{{ event.location }}</span>
+        <span>{{ event.location1 }}</span>
+        <span>{{ event.location2 }}</span>
         <span>{{ event.date }}</span>
         <a v-if="event.ticketsUrl" :href="event.ticketsUrl">Buy Tickets</a>
       </div>
@@ -18,18 +19,21 @@
         events: [
           {
             name: 'United Kingdom',
-            location: 'Manchester',
-            date: '2 March 2019',
+            location1: 'The Sharp Project',
+            location2: 'Manchester',
+            date: 'March 2, 2019',
           },
           {
             name: 'North America',
-            location: 'Santa Ana, CA',
-            date: '23 March 2019',
+            location1: 'Discovery Cube Orange County',
+            location2: 'California',
+            date: 'March 23, 2019',
           },
           {
             name: 'International',
-            location: 'Dublin',
-            date: '5 May 2019',
+            location1: 'RDS, Dublin',
+            location2: 'Ireland',
+            date: 'May 5, 2019',
           },
         ],
       };

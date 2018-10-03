@@ -2,9 +2,9 @@
   <section class="c-enter">
     <div class="c-enter__content">
       <div class="c-enter__content-content">
-        <h1>Enter Projects For Jan 2019</h1>
-        <p>Coolest Projects wants to recognize the effort and creativity of young people who have had an idea and worked to make it a reality using whatever skills and materials they have. All projects from beginner to advanced level are accepted. Join us and share your Scratch animation, website, game, robot, or any other project you’ve built that uses code.</p>
-        <a href="#">Enter a project</a>
+        <h1>Project registration opens January 2019</h1>
+        <p>Coolest Projects recognises the effort and creativity of young people who take an idea and make it a reality. All projects are welcome, from beginner to advanced. Join us and share your Scratch animation, website, game, robot, or anything else you’ve built with technology. Sign up for a reminder to enter your project when registration opens for the International, UK, and USA events in January 2019.</p>
+        <a href="#newsletter">Sign up for news</a>
       </div>
     </div>
     <div class="c-enter__image"></div>

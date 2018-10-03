@@ -4,7 +4,7 @@
       <div class="c-hero__content-content">
         <div class="c-hero__logo">
           <img src="~/static/logo-orange.svg" />
-          <h1>The world leading technology fair for young people</h1>
+          <h1>The world’s leading technology fair for young people</h1>
         </div>
       </div>
     </div>

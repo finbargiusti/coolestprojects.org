@@ -2,13 +2,14 @@
   <footer class="c-footer">
     <div class="c-footer__content">
       <div class="c-footer__links">
-        <a href="#">A link</a>
-        <a href="#">Another link</a>
-        <a href="#">Contact us</a>
+        <a href="https://coolestprojects.org/category/news/">News</a>
+        <a href="https://coolestprojects.zendesk.com/hc">Help center</a>
+        <a href="mailto:hello@coolestprojects.org">Contact us</a>
         <div class="c-footer__social">
-          <a href="#"><img src="~/static/facebook.svg" /></a>
-          <a href="#"><img src="~/static/twitter.svg" /></a>
-          <a href="#"><img src="~/static/instagram.svg" /></a>
+          <a href="https://www.facebook.com/coolestprojects"><img src="~/static/facebook.svg" /></a>
+          <a href="https://twitter.com/coolestprojects"><img src="~/static/twitter.svg" /></a>
+          <a href="https://www.instagram.com/coolestprojects/"><img src="~/static/instagram.svg" /></a>
+          <a href="https://www.youtube.com/channel/UCwLfAb0zvzwidSNHWs9yg2g"><img src="~/static/youtube.svg" /></a>
         </div>
       </div>
       <div class="c-footer__logo">

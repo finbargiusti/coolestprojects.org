@@ -8,7 +8,10 @@
       </div>
       <div class="c-mission__section">
         <p class="c-mission__text">
-          Coolest Projects is a global set of events that encourage kids to be creative and apply that creativity to solving problems in the real world, and creates an environment which enables them to push forward and launch their solution.
+          Coolest Projects gives young people the chance to showcase the great ideas they have created. It inspires and rewards innovation, creativity, entrepreneurship, and technology skills.
+        </p>
+        <p class="c-mission__text">
+          At Coolest Projects, young makers bring projects to share with fellow creators and with the public, and they explore others' work. Outstanding entries can win awards in different categories. All Coolest Projects events are free to enter and free to attend, giving more people the opportunity to become inspired to create with technology.
         </p>
       </div>
     </div>
@@ -50,6 +53,7 @@
       font-size: 24px;
       padding-left: spacing(3);
       line-height: 33px;
+      margin: spacing(3) 0;
     }
 
     &__video {
