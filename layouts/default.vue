@@ -8,8 +8,14 @@
   @import '~/assets/_variables.scss';
 
   @font-face {
-    font-family: 'League Gothic Italic';
-    src: url(../assets/LeagueGothic-Italic.otf);
+      font-family: 'League Gothic';
+      src: url('../static/fonts/leaguegothic-italic-webfont.eot');
+      src: url('../static/fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../static/fonts/leaguegothic-italic-webfont.woff') format('woff'),
+          url('../static/fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+          url('../static/fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+      font-weight: normal;
+      font-style: italic;
   }
 
   html {
@@ -35,7 +41,8 @@
 
   h1 {
     margin: 26px 0 13px 0;
-    font-family: 'League Gothic Italic';
+    font-family: 'League Gothic';
+    font-style: italic;
     font-size: 45px;
     font-weight: normal;
     line-height: 1.1;

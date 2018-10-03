@@ -59,6 +59,14 @@
         flex-direction: column;
         padding-bottom: 40px;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{spacing(3)}));
+
+        &-image {
+          flex: none;
+        }
+
+        &-text {
+          flex: none;
+        }
       }
     }
 
@@ -70,10 +78,11 @@
 
       &-image {
         flex: 3;
+        min-height: 300px;
 
         img {
           height: 100%;
-          max-width: 100%;
+          width: 100%;
           object-fit: cover;
         }
       }

@@ -48,9 +48,11 @@
       font-size: 35px;
       color: $white;
       background-color: $orange;
-      font-family: 'League Gothic Italic';
+      font-family: 'League Gothic';
+      font-style: italic;
       padding: 4px;
       margin-bottom: spacing(3);
+      border: none;
     }
   }
 

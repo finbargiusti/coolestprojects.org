@@ -52,7 +52,8 @@
       }
 
       a {
-        font-family: 'League Gothic Italic';
+        font-family: 'League Gothic';
+        font-style: italic;
         text-transform: uppercase;
         font-size: 28px;
         margin: 40px 0;

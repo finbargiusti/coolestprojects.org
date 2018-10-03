@@ -62,7 +62,8 @@
 
         &:first-child {
           font-size: 35px;
-          font-family: 'League Gothic Italic';
+          font-family: 'League Gothic';
+          font-style: italic;
           font-weight: normal;
           background: $white;
           display: inline-block;
@@ -103,7 +104,8 @@
         background: $black;
         color: $white;
         text-decoration: none;
-        font-family: 'League Gothic Italic';
+        font-family: 'League Gothic';
+        font-style: italic;
         display: inline-block;
         text-transform: uppercase;
         padding: 8px 16px;
