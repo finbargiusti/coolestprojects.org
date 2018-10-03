@@ -21,19 +21,19 @@
             name: 'United Kingdom',
             location1: 'The Sharp Project',
             location2: 'Manchester',
-            date: 'March 2, 2019',
+            date: '2 March 2019',
           },
           {
             name: 'USA',
             location1: 'Discovery Cube Orange County',
             location2: 'California',
-            date: 'March 23, 2019',
+            date: '23 March 2019',
           },
           {
             name: 'International',
             location1: 'RDS, Dublin',
             location2: 'Ireland',
-            date: 'May 5, 2019',
+            date: '5 May 2019',
           },
         ],
       };
