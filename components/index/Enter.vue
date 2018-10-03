@@ -92,6 +92,14 @@
         padding: 30px;
       }
 
+      h1 {
+        font-size: 38px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
       &__image {
         display: none;
       }

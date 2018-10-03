@@ -3,7 +3,7 @@
     <a name="newsletter"></a>
     <h1 class="text-center">Stay in touch</h1>
     <form action="https://raspberrypi.us9.list-manage.com/subscribe/post?u=54fbc2c9ac9d9dd634725107a&amp;id=1ec0029928" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <label>Email Address</label>
+      <label>Email address</label>
       <input type="email" name="EMAIL" />
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_54fbc2c9ac9d9dd634725107a_1ec0029928" tabindex="-1" value=""></div>
       <input type="submit" name="subscribe" value="Sign up" />

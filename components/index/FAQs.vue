@@ -3,12 +3,12 @@
     <h1 class="text-center">FAQs</h1>
     <div class="c-faqs__entry" :class="{'c-faqs__entry--expanded': q1 }">
       <h2 @click="toggleEntry('q1')">Who can enter?</h2>
-      <p>For any Coolest Projects event, if you’re up to 18 years of age and you have made a cool project, you can join in. You can work as an individual or as part of a team of up to five. All projects are welcome, beginner or expert, in any programming language or using whatever hardware available.</p>
+      <p>For any Coolest Projects event, if you’re up to 18 years of age and you have made a cool project, you can join in. You can work as an individual or as part of a team of up to five. All projects are welcome, beginner or expert, in any programming language and using whatever hardware available.</p>
       <p>Coolest Projects events are open to all levels of ability; the focus is on creativity, participation, and most of all on having fun!</p>
     </div>
     <div class="c-faqs__entry" :class="{'c-faqs__entry--expanded': q2 }">
       <h2 @click="toggleEntry('q2')">What can I enter?</h2>
-      <p>Your project should fit into one of six <a href="https://coolestprojects.zendesk.com/hc/en-us/articles/360016590271-What-are-the-project-categories-for-Coolest-Projects-">categories</a>, covering everything from Scratch to hardware projects. If you’ve made something with tech, or you have a project idea, it will probably fit into one of them! Don’t worry if your project is not 100% complete — prototypes and works-in-progress are welcome, so bring what you have developed so far. Coolest Projects is all about the experience and about learning from participating and showcasing what you’ve created. Once you pick your project, you need to register and apply for your space at the event.</p>
+      <p>Your project should fit into one of six <a href="https://coolestprojects.zendesk.com/hc/en-us/articles/360016590271-What-are-the-project-categories-for-Coolest-Projects-">categories</a>, covering everything from Scratch to hardware projects. If you’ve made something with tech, or you have a project idea, it will probably fit into one of them! Don’t worry if your project is not 100% complete — prototypes and works-in-progress are welcome, so bring what you have developed so far. Coolest Projects is all about the experience and about learning from participating and showcasing what you’ve created. Once you have picked your project, you need to register and apply for your space at the event.</p>
     </div>
     <div class="c-faqs__entry" :class="{'c-faqs__entry--expanded': q3 }">
       <h2 @click="toggleEntry('q3')">Where can I learn more about getting involved in Coolest Projects?</h2>

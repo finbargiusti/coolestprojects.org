@@ -107,6 +107,16 @@
     .c-mission {
       padding: 35px spacing(3) spacing(3) spacing(3);
       clip-path: polygon(0 0, 100% spacing(2), 100% 100%, 0 100%);
+
+      &__text {
+        &-main {
+          font-size: 18px;
+        }
+
+        &-sub {
+          font-size: 16px;
+        }
+      }
     }
   }
 </style>
