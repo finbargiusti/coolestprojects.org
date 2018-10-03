@@ -24,7 +24,7 @@
             date: 'March 2, 2019',
           },
           {
-            name: 'North America',
+            name: 'USA',
             location1: 'Discovery Cube Orange County',
             location2: 'California',
             date: 'March 23, 2019',
@@ -74,6 +74,7 @@
           text-transform: uppercase;
           padding: 4px 12px;
           margin: 24px 0 10px 0;
+          line-height: 1;
         }
       }
 

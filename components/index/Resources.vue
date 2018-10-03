@@ -23,10 +23,10 @@
 
     &__resource {
       display: block;
-      background-image: url(../../static/resource-icon.svg);
+      background-image: url(../../static/images/resource-icon.svg);
       background-repeat: no-repeat;
       background-position: left center;
-      padding: spacing(1) spacing(1) spacing(1) spacing(3);
+      padding: spacing(2) spacing(1) spacing(2) spacing(3);
       border-bottom: 1px solid $grey-light;
       font-size: 18px;
       color: $black;

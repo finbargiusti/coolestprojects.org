@@ -1,7 +1,7 @@
 <template>
   <header class="c-header">
     <div class="c-header__content">
-      <a href="https://raspberrypi.org"><img src="~/static/pi.svg" /></a>
+      <a href="https://raspberrypi.org"><img src="~/static/images/pi.svg" /></a>
     </div>
   </header>
 </template>

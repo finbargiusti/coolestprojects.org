@@ -6,14 +6,14 @@
         <a href="https://help.coolestprojects.org/hc">Help center</a>
         <a href="mailto:hello@coolestprojects.org">Contact us</a>
         <div class="c-footer__social">
-          <a href="https://www.facebook.com/coolestprojects"><img src="~/static/facebook.svg" /></a>
-          <a href="https://twitter.com/coolestprojects"><img src="~/static/twitter.svg" /></a>
-          <a href="https://www.instagram.com/coolestprojects/"><img src="~/static/instagram.svg" /></a>
-          <a href="https://www.youtube.com/channel/UCwLfAb0zvzwidSNHWs9yg2g"><img src="~/static/youtube.svg" /></a>
+          <a href="https://www.facebook.com/coolestprojects"><img src="~/static/images/social/facebook.svg" /></a>
+          <a href="https://twitter.com/coolestprojects"><img src="~/static/images/social/twitter.svg" /></a>
+          <a href="https://www.instagram.com/coolestprojects/"><img src="~/static/images/social/instagram.svg" /></a>
+          <a href="https://www.youtube.com/channel/UCwLfAb0zvzwidSNHWs9yg2g"><img src="~/static/images/social/youtube.svg" /></a>
         </div>
       </div>
       <div class="c-footer__logo">
-        <img src="~/static/logo-white.svg" />
+        <img src="~/static/images/logo-white.svg" />
       </div>
       <div class="c-footer__rpf"></div>
     </div>

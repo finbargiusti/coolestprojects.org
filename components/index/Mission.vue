@@ -6,11 +6,11 @@
           <iframe src="https://www.youtube.com/embed/yMmDtfzGYQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="c-mission__section">
-        <p class="c-mission__text">
+      <div class="c-mission__section c-mission__text">
+        <p class="c-mission__text-main">
           Coolest Projects gives young people the chance to showcase the great ideas they have created. It inspires and rewards innovation, creativity, entrepreneurship, and technology skills.
         </p>
-        <p class="c-mission__text">
+        <p class="c-mission__text-sub">
           At Coolest Projects, young makers bring projects to share with fellow creators and with the public, and they explore others' work. Outstanding entries can win awards in different categories. All Coolest Projects events are free to enter and free to attend, giving more people the opportunity to become inspired to create with technology.
         </p>
       </div>
@@ -30,7 +30,7 @@
   .c-mission {
     margin-top: -(spacing(2));
     background: $grey-x-dark;
-    background-image: url(../../static/mission-bg.svg);
+    background-image: url(../../static/images/mission-bg.svg);
     background-position: center;
     background-repeat: no-repeat;
     color: $white;
@@ -50,10 +50,14 @@
     }
 
     &__text {
-      font-size: 24px;
       padding-left: spacing(3);
-      line-height: 33px;
       margin: spacing(3) 0;
+
+      &-main {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: spacing(3);
+      }
     }
 
     &__video {
@@ -72,6 +76,23 @@
     }
   }
 
+  @include media-breakpoint-max(lg) {
+    .c-mission {
+      &__content {
+        flex-direction: column;
+      }
+
+      &__section {
+        width: 100%;
+      }
+
+      &__text {
+        padding-left: 0;
+        padding-top: spacing(1);
+      }
+    }
+  }
+
   @include media-breakpoint-max(md) {
     .c-mission {
       padding: 65px spacing(3) 80px spacing(3);
@@ -86,19 +107,6 @@
     .c-mission {
       padding: 35px spacing(3) spacing(3) spacing(3);
       clip-path: polygon(0 0, 100% spacing(2), 100% 100%, 0 100%);
-
-      &__content {
-        flex-direction: column;
-      }
-
-      &__section {
-        width: 100%;
-      }
-
-      &__text {
-        padding-left: 0;
-        padding-top: spacing(3);
-      }
     }
   }
 </style>

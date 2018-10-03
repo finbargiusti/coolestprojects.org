@@ -3,7 +3,7 @@
     <div class="c-hero__content">
       <div class="c-hero__content-content">
         <div class="c-hero__logo">
-          <img src="~/static/logo-orange.svg" />
+          <img src="~/static/images/logo-orange.svg" />
           <h1>The world’s leading technology fair for young people</h1>
         </div>
       </div>
@@ -52,7 +52,7 @@
     }
 
     &__image {
-      background-image: url(../../static/hero/crowd.jpg);
+      background-image: url(../../static/images/hero/crowd.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

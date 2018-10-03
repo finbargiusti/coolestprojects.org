@@ -49,8 +49,8 @@
   @import '~/assets/_variables.scss';
 
   .subfooter {
-    background-color: $grey;
-    background-image: url('../static/footer-image-grad.jpg');
+    background-color: #E7EDF3;
+    background-image: url('../static/images/footer-image-grad.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     padding-bottom: 560px;

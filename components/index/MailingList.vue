@@ -30,6 +30,7 @@
       display: block;
       margin: spacing(3) 0 spacing(1) 0;
       font-size: 18px;
+      font-weight: bold;
     }
 
     input {
@@ -39,7 +40,7 @@
     }
 
     input[type=email] {
-      margin: spacing(1) 0 spacing(3) 0;
+      margin: spacing(1) 0 spacing(2) 0;
       font-size: 26px;
       border: 1px solid $grey-light;
     }
@@ -54,11 +55,14 @@
       font-style: italic;
       padding: 4px;
       margin-bottom: spacing(1);
+      border: none;
     }
 
     p {
-      margin-bottom: spacing(3);
-      border: none;
+      margin: spacing(2) 0 spacing(3) 0;
+      color: $grey-dark;
+      font-size: 14px;
+      line-height: 1.3;
     }
   }
 

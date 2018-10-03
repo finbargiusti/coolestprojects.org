@@ -49,6 +49,10 @@
     text-transform: uppercase;
   }
 
+  p {
+    line-height: 1.45;
+  }
+
   .text-center {
     text-align: center;
   }

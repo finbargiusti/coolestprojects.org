@@ -3,28 +3,31 @@
     <div class="c-quotes__left">
       <div class="c-quotes__quote">
         <div class="c-quotes__quote-image">
-          <img src="~/static/quotes/quote1.jpg" />
+          <img src="~/static/images/quotes/quote1.jpg" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>“I love to see the different projects and the people from all over the world, who come to show the things that inside are very similar but in practice are very different and have many different uses.” - Raul, Madrid</p>
+          <p>&#8220;I love to see the different projects and the people from all over the world, who come to show the things that inside are very similar but in practice are very different and have many different uses.&#8221;</p>
+          <p class="c-quotes__quote-attribution">Raul, Madrid</p>
         </div>
       </div>
       <div class="c-quotes__quote">
         <div class="c-quotes__quote-image">
-          <img src="~/static/quotes/quote2.jpg" />
+          <img src="~/static/images/quotes/quote2.jpg" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>“I think it's a really good way to see other people’s projects and Ii think it has really helped me get a view of how much there is involved in building technology." - George, UK</p>
+          <p>&#8220;I think it's a really good way to see other people’s projects and I think it has really helped me get a view of how much there is involved in building technology.&#8221;</p>
+          <p class="c-quotes__quote-attribution">George, UK</p>
         </div>
       </div>
     </div>
     <div class="c-quotes__right">
       <div class="c-quotes__quote">
         <div class="c-quotes__quote-image">
-          <img src="~/static/quotes/quote3.jpg" />
+          <img src="~/static/images/quotes/quote3.jpg" />
         </div>
         <div class="c-quotes__quote-text">
-          <p>"To any kids that are looking to enter a project in Coolest Projects, I would definitely encourage them to go in with an open mind. I had no expectations going in and loved being immersed in the environment that exuded innovation and ingenuity." - Kavi, USA</p>
+          <p>&#8220;To any kids that are looking to enter a project in Coolest Projects, I would definitely encourage them to go in with an open mind. I had no expectations going in and loved being immersed in the environment that exuded innovation and ingenuity.&#8221;</p>
+          <p class="c-quotes__quote-attribution">Kavi, USA</p>
         </div>
       </div>
     </div>
@@ -93,7 +96,7 @@
       }
 
       &-attribution {
-        margin-top: 40px;
+        margin-top: spacing(2);
         font-weight: bold;
       }
     }

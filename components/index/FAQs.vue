@@ -46,7 +46,7 @@
 
       h2 {
         background-color: $purple;
-        background-image: url(../../static/chevron-right.svg);
+        background-image: url(../../static/images/chevron-right.svg);
         background-repeat: no-repeat;
         background-position: left 24px center;
         font-size: 18px;
@@ -63,7 +63,7 @@
 
       &--expanded {
         h2 {
-          background-image: url(../../static/chevron-down.svg);
+          background-image: url(../../static/images/chevron-down.svg);
         }
 
         p {
