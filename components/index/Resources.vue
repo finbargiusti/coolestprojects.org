@@ -1,10 +1,9 @@
 <template>
   <section class="c-resources">
     <h1 class="text-center">Resources</h1>
-    <a href="#" class="c-resources__resource">How to make a project workbook</a>
-    <a href="#" class="c-resources__resource">How to make a project poster</a>
-    <a href="#" class="c-resources__resource">How to make a project poster</a>
-    <a href="#" class="c-resources__resource">How to make a project poster</a>
+    <a href="https://help.coolestprojects.org/hc/en-us/articles/360016446372" class="c-resources__resource">How to make a project - workbook</a>
+    <a href="https://help.coolestprojects.org/hc/en-us/articles/360016446952" class="c-resources__resource">How to make a project - poster</a>
+    <a href="https://projects.raspberrypi.org/" class="c-resources__resource">Guided projects for inspiration</a>
   </section>
 </template>
 
