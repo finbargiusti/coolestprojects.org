@@ -70,7 +70,7 @@
       flex: 1;
       margin-left: -160px;
       background: url(../../static/images/enter/photo.jpg);
-      background-position: top right;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
