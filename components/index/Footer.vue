@@ -2,7 +2,7 @@
   <footer class="c-footer">
     <div class="c-footer__content">
       <div class="c-footer__links">
-        <a href="https://coolestprojects.org/category/news/">News</a>
+        <a href="https://coolestprojects.org/news/">News</a>
         <a href="https://help.coolestprojects.org/hc">Help centre</a>
         <a href="mailto:hello@coolestprojects.org">Contact us</a>
         <div class="c-footer__social">
