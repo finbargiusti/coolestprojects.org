@@ -79,29 +79,29 @@
       }
 
       &:nth-child(1) {
-        background: $orange;
+        background: $red;
         display: flex;
         justify-content: flex-end;
-
-        span:first-child {
-          color: $orange;
-        }
-      }
-
-      &:nth-child(2) {
-        background: $red;
-        max-width: 433px;
 
         span:first-child {
           color: $red;
         }
       }
 
-      &:nth-child(3) {
-        background: $teal;
+      &:nth-child(2) {
+        background: $blue;
+        max-width: 433px;
 
         span:first-child {
-          color: $teal;
+          color: $blue;
+        }
+      }
+
+      &:nth-child(3) {
+        background: $orange;
+
+        span:first-child {
+          color: $orange;
         }
       }
 
