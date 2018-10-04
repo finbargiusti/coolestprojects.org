@@ -41,7 +41,7 @@
 
   h1 {
     margin: 26px 0 13px 0;
-    font-family: 'League Gothic';
+    font-family: 'League Gothic', Lato, Arial, sans-serif;
     font-style: italic;
     font-size: 45px;
     font-weight: normal;
