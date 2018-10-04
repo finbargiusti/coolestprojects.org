@@ -11,10 +11,17 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The world leading technology fair for young people' }
+      { hid: 'description', name: 'description', content: 'The world leading technology fair for young people' },
+      { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Coolest Projects - The world leading technology fair for young people' },
+      { hid: 'og:site-name', name: 'og:site-name', property: 'og:site-name', content: 'Coolest Projects' },
+      { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coolestprojects.org/' },
+      { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: '/images/logo-orange.svg' },
+      { hid: 'twitter:title', name: 'twitter:title', property: 'twitter:title', content: 'Coolest Projects - The world leading technology fair for young people' },
+
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/png', href: '/images/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:300,400' }
     ]
   },
