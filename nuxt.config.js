@@ -16,7 +16,7 @@ module.exports = {
       { hid: 'og:site-name', name: 'og:site-name', property: 'og:site-name', content: 'Coolest Projects' },
       { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coolestprojects.org/' },
       { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:image', name: 'og:image', property: 'og:image', content: '/images/logo-orange.svg' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: '/images/logo-orange.png' },
       { hid: 'twitter:title', name: 'twitter:title', property: 'twitter:title', content: 'Coolest Projects - The world leading technology fair for young people' },
 
     ],
