@@ -3,7 +3,7 @@
     <div class="c-mission__content">
       <div class="c-mission__section">
         <div class="c-mission__video">
-          <iframe src="https://www.youtube.com/embed/yMmDtfzGYQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/8Tvw4SVR3Kc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
       <div class="c-mission__section c-mission__text">
