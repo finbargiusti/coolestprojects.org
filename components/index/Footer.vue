@@ -2,8 +2,8 @@
   <footer class="c-footer">
     <div class="c-footer__content">
       <div class="c-footer__links">
-        <!-- <a href="http://coolestprojects.org/news/">News</a> -->
-        <a href="https://help.coolestprojects.org/hc">Help centre</a>
+        <a href="http://coolestprojects.org/news/">News</a>
+        <!-- <a href="https://help.coolestprojects.org/hc">Help centre</a> -->
         <a href="mailto:hello@coolestprojects.org">Contact us</a>
         <div class="c-footer__social">
           <a href="https://www.facebook.com/coolestprojects"><img src="~/static/images/social/facebook.svg" /></a>
