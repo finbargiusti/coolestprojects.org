@@ -11,7 +11,7 @@
           Coolest Projects gives young people the chance to showcase the great ideas they have created. It inspires and rewards innovation, creativity, entrepreneurship, and technology skills.
         </p>
         <p class="c-mission__text-sub">
-          At Coolest Projects, young makers bring projects to share with fellow creators and with the public, and they explore others' work. Outstanding entries can win awards in different categories. All Coolest Projects events are free to enter and free to attend, giving more people the opportunity to become inspired to create with technology.
+          At Coolest Projects, young makers share their projects with fellow creators and the public, and they explore each others' work. Outstanding entries can win awards in different categories. All Coolest Projects events are free to enter and free to attend, giving more people the opportunity to become inspired to create with technology.
         </p>
       </div>
     </div>
