@@ -22,18 +22,21 @@
             location1: 'The Sharp Project',
             location2: 'Manchester',
             date: '2 March 2019',
+            ticketsUrl: '#',
           },
           {
             name: 'USA',
             location1: 'Discovery Cube Orange County',
             location2: 'California',
             date: '23 March 2019',
+            ticketsUrl: '#',
           },
           {
             name: 'International',
             location1: 'RDS, Dublin',
             location2: 'Ireland',
             date: '5 May 2019',
+            ticketsUrl: '#',
           },
         ],
       };
@@ -63,6 +66,7 @@
         display: block;
         font-size: 18px;
         font-weight: bold;
+        margin-bottom: 7px;
 
         &:first-child {
           font-size: 35px;
@@ -109,6 +113,7 @@
         background: $black;
         color: $white;
         text-decoration: none;
+        font-size: 23px;
         font-family: 'League Gothic';
         font-style: italic;
         display: inline-block;
