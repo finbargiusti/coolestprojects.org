@@ -1,6 +1,7 @@
 <template>
   <div>
     <c-header />
+    <links />
     <hero />
     <events />
     <mission />
@@ -19,6 +20,7 @@
 
 <script>
   import Header from '~/components/index/Header';
+  import Links from '~/components/index/Links';
   import Hero from '~/components/index/Hero';
   import Events from '~/components/index/Events';
   import Mission from '~/components/index/Mission';
@@ -32,6 +34,7 @@
   export default {
     components: {
       'c-header': Header,
+      Links,
       Hero,
       Events,
       Mission,
