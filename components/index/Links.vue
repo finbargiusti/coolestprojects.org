@@ -1,29 +1,27 @@
 <template>
-  <section class="links" :class="{'links--open' : open}">
+  <section class="c-links" :class="{'c-links--open' : open}">
     <div class="c-links__mobile__cover" :style="{ 'display:block !important!' : open }">
       <img src="~/static/images/logo-orange.svg" alt="" class="c-links__mobile__cover__logo">
     </div>
-    <div class="c-links">
-      <div class="c-links__desktop">
-        <ul class="c-links__desktop__list">
-          <li v-for="link in links" :key="link.text" class="c-links__desktop__link">
-            <a :href="link.url">{{ link.text }}</a>
-          </li>
-        </ul>
+    <div class="c-links__desktop">
+      <ul class="c-links__desktop__list">
+        <li v-for="link in links" :key="link.text" class="c-links__desktop__link">
+          <a :href="link.url">{{ link.text }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="c-links__mobile">
+      <div class="c-links__mobile__burger">
+        <img @click="toggleOpen()" src="~/static/images/bars.svg" alt="" class="c-links__mobile__burger__icon">
       </div>
-      <div class="c-links__mobile">
-        <div class="c-links__mobile__burger">
-          <img @click="toggleOpen()" src="~/static/images/bars.svg" alt="" class="c-links__mobile__burger__icon">
-        </div>
-        <ul class="c-links__mobile__list">
-          <li class="c-links__mobile__link">
-            <a style="font-size:200%;" @click="toggleOpen()">&lArr;</a>
-          </li>
-          <li v-for="link in links" :key="link.text" class="c-links__mobile__link">
-            <a :href="link.url">{{ link.text }}</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="c-links__mobile__list">
+        <li class="c-links__mobile__link">
+          <a style="font-size:200%;" @click="toggleOpen()">&lArr;</a>
+        </li>
+        <li v-for="link in links" :key="link.text" class="c-links__mobile__link">
+          <a :href="link.url">{{ link.text }}</a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -51,7 +49,7 @@
     },
     methods: {
       toggleOpen() {
-        this["open"] = !this["open"]
+        this.open = !this.open
       }
     }
   }
@@ -105,6 +103,8 @@
         margin-bottom: 30px;
         margin-top: 10px;
         box-sizing: border-box;
+        position: relative;
+        z-index: 2;
 
 
         &>a {
@@ -127,10 +127,10 @@
       }
 
       &__cover {
-        z-index:1;
         background-color: $purple;
         display: none;
         position: fixed;
+        z-index: 1;
         top: 0px;
         left: 0px;
         width: 100%;
@@ -146,10 +146,10 @@
     }
   }
 
-  .links--open {
-    .c-links__mobile__list {display:block;}
-    .c-links__mobile__cover {display:block;}
-    .c-links__mobile__burger {display:none;}
+  .c-links--open {
+    .c-links__mobile__list { display:block; }
+    .c-links__mobile__cover { display:block; }
+    .c-links__mobile__burger { display:none; }
   }
 
   @include media-breakpoint-max(sm) {
