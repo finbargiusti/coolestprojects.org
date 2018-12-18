@@ -15,8 +15,8 @@
         <img @click="toggleOpen()" src="~/static/images/bars.svg" alt="" class="c-links__mobile__burger__icon">
       </div>
       <ul class="c-links__mobile__list">
-        <li class="c-links__mobile__link">
-          <a style="font-size:200%;" @click="toggleOpen()">&lArr;</a>
+        <li class="c-links__mobile__cancel">
+          <a @click="toggleOpen()">✕</a>
         </li>
         <li v-for="link in links" :key="link.text" class="c-links__mobile__link">
           <a :href="link.url">{{ link.text }}</a>
@@ -93,7 +93,7 @@
         
 
         &__icon {
-          width: 50px;
+          width: 35px;
           float:right;
           cursor: pointer;
         }
@@ -113,6 +113,24 @@
           font-weight: bold;
           padding: 7px 10px;
           background-color: $white;
+          cursor: pointer;
+        }
+      }
+
+      &__cancel {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 2;
+
+
+        &>a {
+          text-decoration: none;
+          color: $white;
+          font-weight: bold;
+          font-size: 35px;
+          padding: 7px 10px;
           cursor: pointer;
         }
       }
