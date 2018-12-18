@@ -111,6 +111,7 @@
           text-decoration: none;
           color: $black;
           font-weight: bold;
+          font-size: 23px;
           padding: 7px 10px;
           background-color: $white;
           cursor: pointer;

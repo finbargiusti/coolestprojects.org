@@ -120,6 +120,7 @@
         font-style: italic;
         display: inline-block;
         text-transform: uppercase;
+        margin-top: 5px;
         padding: 8px 16px;
         padding-top: 10px;
       }
