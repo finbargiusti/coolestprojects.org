@@ -32,16 +32,16 @@
       return {
         links: [
           {
-            text: 'Participate',
-            url: '#',
+            text: 'Find an event',
+            url: 'https://coolestprojects.org/events',
           },
           {
-            text: 'Sponsor',
-            url: '#',
+            text: 'Past projects',
+            url: 'https://coolestprojects.org/showcase',
           },
           {
-            text: 'Be Inspired',
-            url: '#',
+            text: 'Sponsors',
+            url: 'https://coolestprojects.org/sponsors',
           },
         ],
         open: false,
